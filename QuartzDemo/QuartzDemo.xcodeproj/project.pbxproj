@@ -33,6 +33,7 @@
 		28C27AA917036F4700933739 /* QuartzPolygons.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C27A9F17036F4700933739 /* QuartzPolygons.m */; };
 		28C27AAA17036F4700933739 /* QuartzRendering.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C27AA117036F4700933739 /* QuartzRendering.m */; };
 		28C27AAB17036F4700933739 /* QuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C27AA317036F4700933739 /* QuartzView.m */; };
+		4F34519C2485F3DD002ED55F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F34519B2485F3DD002ED55F /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		28C27AA217036F4700933739 /* QuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzView.h; sourceTree = "<group>"; };
 		28C27AA317036F4700933739 /* QuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzView.m; sourceTree = "<group>"; };
 		28F650E7170414F200D4C40C /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = SOURCE_ROOT; };
+		4F34519B2485F3DD002ED55F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				28AB60D117036BE500B8EB22 /* Default.png */,
 				28AB60D317036BE500B8EB22 /* Default@2x.png */,
 				28AB60D517036BE500B8EB22 /* Default-568h@2x.png */,
+				4F34519B2485F3DD002ED55F /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 28AB60B317036BE500B8EB22;
@@ -249,6 +253,7 @@
 				2893ED6317317C3300016602 /* Demo.png in Resources */,
 				28AB60D417036BE500B8EB22 /* Default@2x.png in Resources */,
 				28AB60D917036BE500B8EB22 /* MainStoryboard.storyboard in Resources */,
+				4F34519C2485F3DD002ED55F /* Launch Screen.storyboard in Resources */,
 				28AB60D617036BE500B8EB22 /* Default-568h@2x.png in Resources */,
 				2893ED6117317BE700016602 /* Ship.png in Resources */,
 				28AB60CA17036BE500B8EB22 /* InfoPlist.strings in Resources */,
@@ -332,7 +337,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -360,7 +365,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
